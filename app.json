@@ -1,0 +1,6 @@
+{
+  "name": "Creatng a SalckBot to give your profile information",
+  "description": "Node.js application using Express 4",
+  "repository": "https://github.com/sachinbhalekar/MyProfileSlackBot.git",
+  "keywords": ["node", "express", "slackbot"]
+}
