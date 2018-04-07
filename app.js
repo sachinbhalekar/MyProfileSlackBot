@@ -18,7 +18,7 @@ app.listen(port, function () {
 app.post('/hello', function (req, res, next) {
   var userName = req.body.user_name;
   var botPayload = {
-    text : 'Hello ' + userName + ', welcome to Sachin\'s Slack channel! I\'ll be your guide to fetch Sachin\'s profile.'
+    text : 'Hello ' + userName + ', welcome to Sachin\'s Slack channel ! I\'ll be your guide to fetch Sachin\'s profile. \n What would you like to know about Sachin \n 1. LinkedIn Profile \n 2. GitHub Profile \n 3. Resume \n '
   };
   // Loop otherwise..
   if (userName !== 'slackbot') {
